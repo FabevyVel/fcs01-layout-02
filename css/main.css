@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: right center;
+    height: 100vh;
+}
+.f-container{
+	display: flex;
+}
+.wrapper{
+	width: 100%;
+	padding: 0 15px;
+}
+
+header *{
+	color: #fff;
+}
+header .f-container{
+	height: 100vh;
+    align-items: center;
+}
+header .f-item{
+	width: 100%;
+}
+header h1{
+	font-size: 36px;
+	color: #fff;
+	font-family: 'Poppins', 'Arial', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
