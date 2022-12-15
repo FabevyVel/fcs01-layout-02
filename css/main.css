@@ -45,7 +45,7 @@ header p span{
 	padding-bottom: 6px;
 }
 .main-navigation{
-    display: block;
+    display: none;
     margin-top: 0;
     text-align: left;
     position: fixed;
@@ -113,6 +113,7 @@ header .social-links a span:hover{
 
 @media (min-width: 992px){
 	.main-navigation{
+		display: block;
 		margin-top: 50px;
 		text-align: center;
 		position: static;
