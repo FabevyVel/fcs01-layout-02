@@ -65,3 +65,6 @@ header .social-links .circle a{
 header .social-links a span:hover{
 	background-color:#18d26e;
 }
+footer{
+	justify-content:center;
+}
