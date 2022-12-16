@@ -113,10 +113,6 @@ header .social-links a span:hover{
 		text-align: center;
 	}
 }
-<<<<<<< HEAD
-footer{
-	justify-content:center;
-=======
 
 @media (min-width: 768px){
 	
@@ -157,5 +153,4 @@ footer{
 	header p{
 		font-size: 24px;
 	}
->>>>>>> main
 }

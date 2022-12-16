@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
 	background-position: right center;
     height: 100vh;
+	
 }
 .f-container{
 	display: flex;
@@ -18,6 +19,7 @@ body{
 	padding-left:90px;
 	padding-bottom:30px;
 	background: rgba(0, 0, 0, 0.9);
+	position:static;
 }
 .f-item{
 	width: 100%;
@@ -58,14 +60,15 @@ header h1 a{
     margin: 0 auto;
     margin-top: 20px;
     background: rgba(0, 0, 0, 0.9);
-    height: 1853px;
+    height: 1200px;
 }
 .about-content{
-	
-}
-.about-content .title{
 	padding-left:30px;
 	padding-top:30px;
+}
+.about-content .title{
+	
+	
 }
 .title h2{
 	font-size: 14px;
@@ -87,8 +90,14 @@ header h1 a{
 .box-70{
 	width:70%;
 }
+.box-25{
+	width:25%;
+}
 .box-30{
 	width:30%;
+}
+.box-50{
+	width:50%;
 }
 .box-100{
 	width:100%;
@@ -106,4 +115,35 @@ header h1 a{
 	font-style:italic;
 	color:#fff;
 	font-size:19px;
+}
+.profile-data{
+	display:inline-block;
+	font-family: "Open Sans", sans-serif;
+}
+.profile-data h1{
+	color:#fff;
+	display:inline-block;
+	font-size: 18px;
+    font-weight: bolder;
+}
+.profile-data p{
+	color:#fff;
+	display:inline-block;
+}
+.f-wrap-wrap{
+	flex-wrap:wrap;
+}
+p.bottom-para{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+    line-height: 1.4;
+}
+.data-counter{
+	margin-bottom:20px;
+}
+.data-counter .count-box{
+	color:#fff;
+	height:80px;
+	width:150px;
+	background: rgba(255, 255, 255, 0.08);
 }
