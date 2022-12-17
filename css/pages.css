@@ -60,14 +60,14 @@ header h1 a{
     margin: 0 auto;
     margin-top: 20px;
     background: rgba(0, 0, 0, 0.9);
-    height: 1200px;
+    height: auto;
 }
 .about-content{
-	padding-left:30px;
-	padding-top:30px;
+	
 }
 .about-content .title{
-	
+	padding-left:30px;
+	padding-top:30px;
 	
 }
 .title h2{
@@ -95,6 +95,9 @@ header h1 a{
 }
 .box-30{
 	width:30%;
+}
+.box-33.33{
+	width:33.33%;
 }
 .box-50{
 	width:50%;
@@ -141,16 +144,33 @@ p.bottom-para{
 .data-counter{
 	margin-top:20px;
 	font-family: "Open Sans", sans-serif;
+	display:block;
+	margin-bottom:20px;
 }
 .data-counter .count-box{
 	color:#fff;
 	height:125px;
 	width:180px;
 	background: rgba(255, 255, 255, 0.08);
-	padding-top:32px;
+	margin-left:20px;
 }
 .text-center{
 	text-align:center;
+}
+.data-counter .count-box .circle{
+	width: 44px;
+    height: 44px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 65px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display:block;
+    line-height: 44px;
+}
+.data-counter .count-box i{
+	color:#18d26e;
+	font-size:20px;
+	margin-top:6px;
 }
 .data-counter .count-box span{
 	font-size: 40px;
@@ -158,4 +178,42 @@ p.bottom-para{
 }
 .data-counter .count-box p{
 	padding-top: 10px;
+}
+.interest .icon-box{
+	color: #fff;
+	height: 72px;
+	width: 180px;
+	background: rgba(255, 255, 255, 0.08);
+	margin-left:20px;
+	margin-top:20px;
+	padding-top:10px;
+}
+.interest .icon-box i{
+	font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.interest .icon-box h3{
+	display:inline-block;
+	font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.codes .code-content{
+	color: #fff;
+	height: 170px;
+	width: 300px;
+	
+	margin-left:20px;
+	margin-top:20px;
+	padding-top:10px;
+	margin-bottom: 20px;
+}
+.codes .code-content p{
+	font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    border-radius: 6px;
 }
