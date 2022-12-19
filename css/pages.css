@@ -6,23 +6,31 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 	background-position: right center;
-    height: 100vh;
-	
+    min-height: 100vh;
+	background-attachment: fixed;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.wrapper-fluid{
+	width:100%;
 }
 .f-container{
 	display: flex;
 	justify-content:space-between;
 }
-.wrapper-fluid{
-	width:100%;
-	padding-top:30px;
-	padding-left:90px;
-	padding-bottom:30px;
-	background: rgba(0, 0, 0, 0.9);
-	position:static;
+.f-wrap{
+	flex-wrap: wrap;
 }
 .f-item{
 	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+header{
+	display: none;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 20px 0;
 }
 header h1 a{
 	font-size: 36px;
@@ -58,12 +66,9 @@ header h1 a{
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    height: auto;
 }
 .about-content{
-	
+	background: rgba(0, 0, 0, 0.9);
 }
 .about-content .title{
 	padding-left:30px;
@@ -86,24 +91,6 @@ header h1 a{
     text-transform: uppercase;
     font-family: Poppins, sans-serif;
     color: rgb(255, 255, 255);
-}
-.box-70{
-	width:70%;
-}
-.box-25{
-	width:25%;
-}
-.box-30{
-	width:30%;
-}
-.box-33.33{
-	width:33.33%;
-}
-.box-50{
-	width:50%;
-}
-.box-100{
-	width:100%;
 }
 .details h3{
 	font-weight: 700;
@@ -216,4 +203,83 @@ p.bottom-para{
     background: rgba(255, 255, 255, 0.1);
     position: relative;
     border-radius: 6px;
+}
+
+.box-xs-25{
+	width:25%;
+}
+.box-xs-30{
+	width:30%;
+}
+.box-xs-33_33{
+	width:33.33%;
+}
+.box-xs-50{
+	width:50%;
+}
+.box-xs-70{
+	width:70%;
+}
+.box-xs-100{
+	width:100%;
+}
+@media (min-width: 576px){
+	.box-sm-70{
+		width:70%;
+	}
+	.box-sm-25{
+		width:25%;
+	}
+	.box-sm-30{
+		width:30%;
+	}
+	.box-sm-33_33{
+		width:33.33%;
+	}
+	.box-sm-50{
+		width:50%;
+	}
+	.box-sm-100{
+		width:100%;
+	}
+}
+@media (min-width: 768px){
+	.box-md-70{
+		width:70%;
+	}
+	.box-md-25{
+		width:25%;
+	}
+	.box-md-30{
+		width:30%;
+	}
+	.box-md-33_33{
+		width:33.33%;
+	}
+	.box-md-50{
+		width:50%;
+	}
+	.box-md-100{
+		width:100%;
+	}
+}
+@media (min-width: 992px){
+	.box-lg-70{
+		width:70%;
+	}
+	.box-lg-25{
+		width:25%;
+	}
+	.box-lg-30{
+		width:30%;
+	}
+	.box-lg-33_33{
+		width:33.33%;
+	}
+	.box-lg-50{
+		width:50%;
+	}
+	.box-lg-100{
+		width:100%;
+	}
 }
