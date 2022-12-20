@@ -167,6 +167,33 @@ p.bottom-para{
 .data-counter .count-box p{
 	padding-top: 10px;
 }
+.progress{
+	margin-left:10px;
+}
+.progress .progress-title {
+	padding: 15px 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+	display: block;
+}
+.progress .progress-title span{
+	float: right;
+    font-style: normal;
+	color: #fff;
+	top:-16px;
+	position:relative;
+}
+.progress .progress-chart{
+	height:10px;
+	background: rgba(255, 255, 255, 0.2);
+}
+.progress .progress-chart .progress-range{
+	background-color: #18d26e;
+	height:10px;
+}
 .interest .icon-box{
 	color: #fff;
 	height: 72px;
@@ -205,24 +232,39 @@ p.bottom-para{
 .codes .code-content img{
 	width: 90px;
     border-radius: 50%;
-    margin: -40px 0 0 40px;
+    margin: -40px 0 0 -130px;
     position: relative;
     border: 6px solid rgba(255, 255, 255, 0.12);
 }
 .codes .code-content h3{
 	font-size: 18px;
     font-weight: bold;
-    margin: 10px 0 5px 45px;
+    margin: 10px 0 5px -95px;
     color: #fff;
 	font-family: "Raleway", sans-serif;
 }
 .codes .code-content h4{
 	font-size: 14px;
     color: #999;
-    margin: 0 0 0 45px;
+    margin: 0 0 0 -122px;
 	font-family: "Raleway", sans-serif;
 }
-
+.box-55{
+	width:55%;
+	background-color: #18d26e;
+}
+.box-65{
+	width:65%;
+}
+.box-80{
+	width:80%;
+}
+.box-90{
+	width:90%;
+}
+.box-100{
+	width:100%;
+}
 .box-xs-25{
 	width:25%;
 }
