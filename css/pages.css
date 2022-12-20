@@ -190,12 +190,9 @@ p.bottom-para{
 .codes .code-content{
 	color: #fff;
 	height: 170px;
-	width: 300px;
-	
-	margin-left:20px;
 	margin-top:20px;
 	padding-top:10px;
-	margin-bottom: 20px;
+	margin-bottom: 120px;
 }
 .codes .code-content p{
 	font-style: italic;
@@ -204,6 +201,26 @@ p.bottom-para{
     background: rgba(255, 255, 255, 0.1);
     position: relative;
     border-radius: 6px;
+}
+.codes .code-content img{
+	width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    border: 6px solid rgba(255, 255, 255, 0.12);
+}
+.codes .code-content h3{
+	font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #fff;
+	font-family: "Raleway", sans-serif;
+}
+.codes .code-content h4{
+	font-size: 14px;
+    color: #999;
+    margin: 0 0 0 45px;
+	font-family: "Raleway", sans-serif;
 }
 
 .box-xs-25{
@@ -281,6 +298,26 @@ p.bottom-para{
 		width:50%;
 	}
 	.box-lg-100{
+		width:100%;
+	}
+}
+@media (min-width: 1200px){
+	.box-xl-70{
+		width:70%;
+	}
+	.box-xl-25{
+		width:25%;
+	}
+	.box-xl-30{
+		width:30%;
+	}
+	.box-xl-33_33{
+		width:33.33%;
+	}
+	.box-xl-50{
+		width:50%;
+	}
+	.box-xl-100{
 		width:100%;
 	}
 }
