@@ -353,7 +353,7 @@ p.bottom-para{
     margin-bottom: 20px;
 	position: relative;
 }
-.icon-box::before{
+.services .service-box .icon-box::before{
 	position: absolute;
     content: "";
     left: -8px;
