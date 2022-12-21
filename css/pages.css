@@ -330,7 +330,8 @@ p.bottom-para{
 	list-style:none;
 }
 .list-items .items li{
-	line-height: 30px;
+	line-height: 20px;
+    padding-bottom: 10px;
 }
 .services .service-box{
 	height:360px;
