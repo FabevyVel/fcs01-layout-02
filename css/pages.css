@@ -385,6 +385,50 @@ p.bottom-para{
 .services .service-box:hover{
 	background: #18d26e;
 }
+.contact-section .info-box{
+	color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+	margin-bottom:30px;
+	margin-top: 20px;
+}
+.contact-section .info-box h3 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+.contact-section .info-box p{
+	padding: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+.contact-section .info-box i.icon-circle{
+	font-size: 21px;
+    color: #18d26e;
+    border-radius: 50%;
+    padding: 15px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 50px;
+}
+.info-box .social-links{
+	margin: 5px 0 0 68px;
+    display: flex;
+
+}
+.info-box .social-links a{
+	font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    margin-right: 12px;
+}
+
 .box-55{
 	width:55%;
 	background-color: #18d26e;
