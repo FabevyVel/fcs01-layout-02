@@ -392,6 +392,7 @@ p.bottom-para{
     background: rgba(255, 255, 255, 0.08);
 	margin-bottom:30px;
 	margin-top: 20px;
+	font-family: "Raleway", sans-serif;
 }
 .contact-section .info-box h3 {
     font-size: 20px;
@@ -429,7 +430,7 @@ p.bottom-para{
     margin-right: 12px;
 }
 .info-box .social-links a:hover{
-	background: #18d26e;
+	color: #18d26e;
 }
 .form-section{
 	 background: rgba(255, 255, 255, 0.08);
