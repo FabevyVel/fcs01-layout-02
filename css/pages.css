@@ -428,7 +428,38 @@ p.bottom-para{
     line-height: 1;
     margin-right: 12px;
 }
-
+.info-box .social-links a:hover{
+	background: #18d26e;
+}
+.form-section{
+	 background: rgba(255, 255, 255, 0.08);
+	 padding: 30px;
+	 margin-bottom:20px;
+}
+.form-section input{
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	width:100%;
+	border:0;
+	font-size:17px;
+}
+.form-section textarea{
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px 15px;
+	margin-bottom: 15px;
+	width:100%;
+	border:0;
+	font-size:17px;
+}
+.form-section button{
+	background: #18d26e;
+    border: 0;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 8px;
+	font-size:17px;
+}
 .box-55{
 	width:55%;
 	background-color: #18d26e;
