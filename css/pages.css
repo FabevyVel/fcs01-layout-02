@@ -461,6 +461,32 @@ p.bottom-para{
     border-radius: 8px;
 	font-size:17px;
 }
+.portfolio .portfolio-filters{
+	margin: 0 auto 15px auto;
+    list-style: none;
+    text-align: center;
+    padding: 2px 15px;
+	color: #fff;
+}
+.portfolio .portfolio-filters li{
+	cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 3px 10px 3px;
+    border-radius: 4px;
+}
+.portfolio .portfolio-filters li.active{
+	background: #18d26e;
+}
+.portfolio .portfolio-filters li:hover{
+	background: #18d26e;
+}
 .portfolio .portfolio-box{
 	background: rgba(0, 0, 0, 0.6);
 }
