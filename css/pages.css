@@ -461,6 +461,15 @@ p.bottom-para{
     border-radius: 8px;
 	font-size:17px;
 }
+.portfolio .portfolio-box{
+	background: rgba(0, 0, 0, 0.6);
+}
+.portfolio .portfolio-box img{
+	height:auto;
+	max-width:100%;
+	padding:5px;
+	padding-bottom:20px;
+}
 .box-55{
 	width:55%;
 	background-color: #18d26e;
